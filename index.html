@@ -45,7 +45,7 @@ footer{text-align:center;padding:25px;color:#806e62;font-size:14px}
   gtag('js', new Date());
   gtag('config', 'AW-18245725732');
 </script>
-<!-- Click-based conversion handler for call button (NO auto-fire on page load) -->
+<!-- Click-based conversion handler for call/WhatsApp buttons (NO auto-fire on page load) -->
 <script>
   function gtag_report_conversion(url) {
     var callback = function () {
@@ -54,7 +54,9 @@ footer{text-align:center;padding:25px;color:#806e62;font-size:14px}
       }
     };
     gtag('event', 'conversion', {
-        'send_to': 'AW-18245725732/kJ2vCO3l4OMcEKTcnvxD',
+        'send_to': 'AW-18245725732/NikpCLjCpeccEKTcnvxD',
+        'value': 1.0,
+        'currency': 'HKD',
         'event_callback': callback
     });
     return false;
@@ -100,7 +102,7 @@ footer{text-align:center;padding:25px;color:#806e62;font-size:14px}
 <h2>想來赣乡宴吃江西菜？</h2>
 <p>提前聯絡我們，了解位置、菜單及訂座安排。</p>
 <p class="contact-line">☎️ 電話：<a href="tel:+8615899511111" onclick="return gtag_report_conversion('tel:+8615899511111');">+86 158 9951 1111</a></p>
-<p class="contact-line">💬 WhatsApp：<a href="https://wa.me/85295564471" target="_blank">+852 9556 4471</a></p>
+<p class="contact-line">💬 WhatsApp：<a href="https://wa.me/85295564471" target="_blank" onclick="return gtag_report_conversion('https://wa.me/85295564471');">+852 9556 4471</a></p>
 <p>營業時間：歡迎致電查詢</p>
 </section>
 
