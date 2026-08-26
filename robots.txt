@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://yuanlju96-commits.github.io/gx_yan/sitemap.xml
